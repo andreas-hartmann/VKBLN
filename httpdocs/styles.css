@@ -1,0 +1,86 @@
+ html {
+     font-family: Helvetica, sans-serif;
+     width: 100%
+}
+ body {
+     font-size: 18px;
+     line-height: 1.5;
+     margin: 0;
+     padding: 0;
+}
+ a {
+     color: black;
+}
+ footer {
+     text-align: center;
+     width: 100%;
+     bottom: 16px;
+     position: absolute;
+}
+ h1 {
+     margin: 0 0 20px;
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+     text-transform: uppercase;
+}
+ h2 {
+     margin: 0 0 20px;
+     font-size: 30px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+ h3 {
+     margin: 0 0 20px;
+     font-size: 24px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+ form {
+     margin: 20px 0;
+     text-align: center;
+}
+ label {
+     display: block;
+     margin-bottom: 10px;
+     font-weight: bold;
+}
+ button {
+     margin-bottom: 10px;
+     left: 50%;
+}
+ input[type="text"] {
+     border: 2px solid #ccc;
+     border-radius: 5px;
+     font-size: 18px;
+     margin-bottom: 20px;
+     padding: 10px;
+     width: 300px;
+}
+ input[type="submit"], button {
+     background-color: #333;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     font-size: 18px;
+     padding: 10px 20px;
+     text-transform: uppercase;
+}
+ input[type="submit"]:hover, button:hover {
+     background-color: #555;
+}
+ .message {
+     margin: 24px 0;
+     text-align: center;
+}
+ .buttons_bottom {
+     text-align: center;
+     width: 100%;
+     position: relative;
+     bottom: 0;
+}
+ .footer_a {
+     margin: 32px;
+}
